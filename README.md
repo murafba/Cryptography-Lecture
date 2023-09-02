@@ -32,7 +32,11 @@ This repository contains the source code that I created from the lesson cryptogr
   - Cast the character data type into string
   - Join the character to become a plain text
 
+---
+
 # Kuliah Kriptografi
+Bahasa: Java OOP
+
 ## Indonesia Version
 Repositori ini berisi kode sumber buatan saya sendiri dari pembelajaran mata kuliah kriptografi di Universitas Sriwijaya. Selain itu, terdapat materi kriptografi yang saya pelajari dari sumber-sumber lain.
 
