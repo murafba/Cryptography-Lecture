@@ -4,7 +4,7 @@ Language: Java OOP
 ## English Version
 This repository contains the source code that I created from the lesson cryptography lecture at Sriwijaya University. Moreover, there are also cryptography materials that I learn from various sources beside the lecture.
 
-  ### - First Lesson: Caesar Cipher (src/caesarCipher)
+  - ### First Lesson: Caesar Cipher (src/caesarCipher)
   Creating the source code of Caesar Cipher with 256 ASCII key, shifting to 3 characters
   #### Class Encrypt.java
   This class turns a plain text into a cipher text
