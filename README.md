@@ -1,7 +1,10 @@
 # Cryptography-Lecture
-This repository contains the source code that I created from the cryptography lecture at Sriwijaya University. Moreover, there are also cryptography materials that I learn from various sources beside the lecture.
+Language: Java OOP
 
-  ### First Lesson:
+## English Version
+This repository contains the source code that I created from the lesson cryptography lecture at Sriwijaya University. Moreover, there are also cryptography materials that I learn from various sources beside the lecture.
+
+  ### First Lesson: Caesar Cipher (src/caesarCipher)
   Creating the source code of Caesar Cipher with 256 ASCII key, shifting to 3 characters
   #### Class Encrypt.java
   This class turns a plain text into a cipher text
@@ -30,9 +33,32 @@ This repository contains the source code that I created from the cryptography le
   - Join the character to become a plain text
 
 # Kuliah Kriptografi
-## Indonesia Translation
-Repositori ini berisi kode sumber dari mata kuliah kriptografi di Universitas Sriwijaya. Selain itu, terdapat materi kriptografi yang saya pelajari dari sumber-sumber lain.
+## Indonesia Version
+Repositori ini berisi kode sumber buatan saya sendiri dari pembelajaran mata kuliah kriptografi di Universitas Sriwijaya. Selain itu, terdapat materi kriptografi yang saya pelajari dari sumber-sumber lain.
 
-  - Pelajaran pertama:
-    Membuat kode sumber dari Caesar Cipher dengan menggunakan 256 kunci karakter ASCII, dengan masing-masing perubahan 3 buah karakter
+  ### Pelajaran Pertama: Caesar Cipher (src/caesarCipher)
+  Membuat kode sumber Caesar Cipher dengan menggunakan 256 kunci ASCII, melakukan pergeseran sebanyak 3 buah karakter
+  #### Kelas Encrypt.java
+  Kelas ini mengubah teks biasa menjadi teks yang disandikan (teks cipher)  
+  ##### Algoritma:
+  - Ambil teks biasa dan kunci cipher yang diinput dari Main.java
+  - Pisahkan teks biasa ke dalam karakter terpisah
+  - Ubah tipe data karakter menjadi nilai integer
+  - Geser nilai integer ke kanan sebanyak kunci cipher dan modulo dengan 256
+  - Ambil nilai integer baru yang telah digeser
+  - Ubah nilai integer baru menjadi karakter baru
+  - Ubah tipe data karakter baru menjadi string
+  - Gabungkan karakter agar menjadi teks cipher
 
+
+  #### Kelas Decrypt.java
+  Kelas ini mengubah teks cipher menjadi teks biasa
+  ##### Algoritma:
+  - Ambil teks cipher dari kelas Encrypt.java
+  - Pisahkan teks cipher menjadi karakter terpisah
+  - Ubah tipe data karakter menjadi nilai integer ASCII
+  - Geser nilai integer ke kiri sebanyak kunci cipher dan modulo dengan 256
+  - Ambil nilai integer baru yang telah digeser
+  - Ubah nilai integer baru menjadi karakter baru
+  - Ubah tipe data karakter baru menjadi string
+  - Gabungkan karakter agar menjadi teks cipher
